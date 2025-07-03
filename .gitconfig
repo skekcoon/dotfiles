@@ -1,0 +1,7 @@
+[user]
+	name = Guillaume
+	email = 216857951+skekcoon@users.noreply.github.com 
+[pull]
+	rebase = true
+[init]
+	defaultBranch = trunk
