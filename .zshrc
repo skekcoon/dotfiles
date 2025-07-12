@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------#
-#                                 # PATH                                       #
+#                                  PATH                                        #
 #------------------------------------------------------------------------------#
 
 # Path to your Oh My Zsh installation
@@ -12,6 +12,11 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #             Starship Prompt: Set up your shell to use Starship               #
 #------------------------------------------------------------------------------#
 eval "$(starship init zsh)"
+
+#------------------------------------------------------------------------------#
+#                        Opt out of Homebrew’s analytic                        #
+#------------------------------------------------------------------------------#
+export HOMEBREW_NO_ANALYTICS=1
 
 
 # Set list of themes to pick from when loading at random
